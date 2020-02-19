@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3da3bd2e1f46a7c6e41d10dd3e691d55",
+    "revision": "9a4043f6ed0a518a94916c17ccb38f6b",
     "url": "/challenge-zup/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/challenge-zup/static/js/2.c5289a6c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "23a28241229d6784a657",
-    "url": "/challenge-zup/static/js/main.3b9c3207.chunk.js"
+    "revision": "360114c9e61978f282a2",
+    "url": "/challenge-zup/static/js/main.07dfd11c.chunk.js"
   },
   {
     "revision": "ebc7aa49074d301e6970",
