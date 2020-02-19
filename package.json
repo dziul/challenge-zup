@@ -1,7 +1,7 @@
 {
   "name": "challenge-zup",
   "version": "0.1.0",
-  "homepage": "http://darkziul.github.io/challenge-zup",
+  "homepage": "https://darkziul.github.io/challenge-zup",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.3",
