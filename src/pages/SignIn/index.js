@@ -14,7 +14,6 @@ import uniqueId from '../../utils/uniqueId';
 import {Styleds} from '../SignUp/styled';
 
 const PageSignIn = (props) => {
-
     const [userEmail, setUserEmail] = useState('');
     const [userPassword, setUserPassword] = useState('');
 
@@ -68,8 +67,8 @@ const PageSignIn = (props) => {
                         />
 
                         <Styleds.Actions>
-                            <Styleds.Button color='primary' type="submit">Sign in</Styleds.Button>
-                            <Styleds.Button component={Link} to={pageMetadata.signup.path} role="link">Sign up</Styleds.Button>
+                            <Styleds.Button disabled={props.collection.loading} color='primary' type="submit">Sign in</Styleds.Button>
+                            <Styleds.Button disabled={props.collection.loading} component={Link} to={pageMetadata.signup.path} role="link">Sign up</Styleds.Button>
                             <Styleds.Button disabled>Lost your password?</Styleds.Button>
                         </Styleds.Actions>
                         

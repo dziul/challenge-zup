@@ -15,7 +15,7 @@ const Alert = ({visible=false, type, timeout=5000, message, children}) => {
     const ButtonClose = <IconButton size="small" onClick={onCloseHandling}><ClearIcon aria-label="close alert"/></IconButton>;
     
     return(
-        <Snackbar open={open} autoHideDuration={timeout} onClose={onCloseHandling} >
+        <Snackbar open={open} autoHideDuration={timeout} onClose={onCloseHandling} anchorOrigin={{ vertical:"top", horizontal: "center"  }} >
             <MuiAlert elevation={6} variant="filled" onClose={onCloseHandling} severity={type} action={ButtonClose}>
                 {message||children}
             </MuiAlert>

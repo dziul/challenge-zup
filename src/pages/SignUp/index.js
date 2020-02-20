@@ -74,13 +74,14 @@ const PageSignUp = (props) => {
                         />
 
                         <Styleds.Actions>
-                            <Styleds.Button color='primary' type="submit">
+                            <Styleds.Button color='primary' type="submit" disabled={props.collection.loading}>
                                 Sign up
                             </Styleds.Button>
                             <Styleds.Button
                                 component={Link}
                                 to={pageMetadata.signin.path}
                                 role="link"
+                                disabled={props.collection.loading}
                             >
                                 Sign in
                             </Styleds.Button>

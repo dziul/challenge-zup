@@ -7,9 +7,13 @@ import {Button} from '../../styleds/Button';
 import {ContainerMainFlexCenter,Actions,BodyWithGradient} from '../../styleds/Common';
 import {blueGrey} from '../../styleds/Colors';
 
-export const Main = styled(BodyWithGradient)``;
+export const Main = styled(BodyWithGradient)`
+    padding-top:20px;
+    padding-bottom:20px;
+`;
 
-export const Container = styled(ContainerMainFlexCenter)``;
+export const Container = styled(ContainerMainFlexCenter)`
+`;
 
 export const Content = styled(Paper).attrs(props=>({
     elevation: 3,
@@ -17,7 +21,6 @@ export const Content = styled(Paper).attrs(props=>({
     padding: 20px;
     width:100%;
     max-width: 420px;
-    margin: 20px 0;
 `;
 
 export const ContentHeader = styled.div`

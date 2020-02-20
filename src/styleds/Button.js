@@ -9,6 +9,10 @@ export const Button = styled(MaterialButton)`
         background-color: ${purple[800]} !important;
         border-color: ${purple[800]} !important;
         color: ${white[900]} !important;
+
+        &[disabled], &[aria-disabled="true"]{
+            opacity: .26;
+        }
     `};
 
     padding-left:15px !important;
