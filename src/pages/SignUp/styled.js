@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 import {IconButton, Paper} from '@material-ui/core';
 
@@ -6,6 +6,17 @@ import {fontSize} from '../../styleds/Mixins';
 import {Button} from '../../styleds/Button';
 import {ContainerMainFlexCenter,Actions,BodyWithGradient} from '../../styleds/Common';
 import {blueGrey} from '../../styleds/Colors';
+
+const animationFadeOutIn = keyframes`
+    from {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+    to {
+        opacity:1;
+        transform: scale(1);
+    }
+`;
 
 export const Main = styled(BodyWithGradient)`
     padding-top:20px;
@@ -18,6 +29,7 @@ export const Container = styled(ContainerMainFlexCenter)`
 export const Content = styled(Paper).attrs(props=>({
     elevation: 3,
 }))`
+    animation: ${animationFadeOutIn} .2s linear;
     padding: 20px;
     width:100%;
     max-width: 420px;
