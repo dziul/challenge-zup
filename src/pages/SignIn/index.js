@@ -55,7 +55,7 @@ const PageSignIn = (props) => {
                             id={uniqueId(4)}
                             label="E-mail"
                             variant="outlined"
-                            type="mail"
+                            type="email"
                             onChange={(event)=>{setUserEmail(event.target.value)}}
                         />
                         <TextField
