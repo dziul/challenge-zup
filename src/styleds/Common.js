@@ -9,7 +9,7 @@ import {Gradient} from './Colors';
 
 const flexExpanded = css`
     display:flex;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 `;
 

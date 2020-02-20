@@ -60,9 +60,7 @@ const PageDashboard = (props) => {
 
                     <Styleds.Box className="display-flex">
                         
-                        <IconButton aria-label="search">
-                            <IconSearch/>
-                        </IconButton>
+                        <IconSearch/>
                         <InputBase
                             onChange={onChangeFilter}
                             placeholder= "Search filter"
