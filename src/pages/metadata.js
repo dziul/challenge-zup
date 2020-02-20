@@ -2,7 +2,7 @@ import Home from './Home';
 import SignUp from './SignUp';
 import SignIn from './SignIn';
 import Dashboard from './Dashboard';
-
+import NoFound from './NoFound';
 
 const pageMetadata = {
     home: {
@@ -20,6 +20,10 @@ const pageMetadata = {
     dashboard: {
         path: '/dashboard',
         component: () => Dashboard,
+    },
+    nofound: {
+        path: '*',
+        component: () => NoFound,
     }
 };
 

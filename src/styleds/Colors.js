@@ -12,6 +12,7 @@ export const purple = {
 
 export const blueGrey = {
     50: '#eceff1',
+    200: "#b0bec5",
     700 : '#455a64',
     800 : '#37474f',
     900 : '#263238',
