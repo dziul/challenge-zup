@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/challenge-zup/static/js/main.4383024e.chunk.js",
-    "main.js.map": "/challenge-zup/static/js/main.4383024e.chunk.js.map",
+    "main.js": "/challenge-zup/static/js/main.82b01b84.chunk.js",
+    "main.js.map": "/challenge-zup/static/js/main.82b01b84.chunk.js.map",
     "runtime-main.js": "/challenge-zup/static/js/runtime-main.03639d23.js",
     "runtime-main.js.map": "/challenge-zup/static/js/runtime-main.03639d23.js.map",
-    "static/js/2.edb5b10c.chunk.js": "/challenge-zup/static/js/2.edb5b10c.chunk.js",
-    "static/js/2.edb5b10c.chunk.js.map": "/challenge-zup/static/js/2.edb5b10c.chunk.js.map",
+    "static/js/2.ba78db69.chunk.js": "/challenge-zup/static/js/2.ba78db69.chunk.js",
+    "static/js/2.ba78db69.chunk.js.map": "/challenge-zup/static/js/2.ba78db69.chunk.js.map",
     "index.html": "/challenge-zup/index.html",
-    "precache-manifest.987c89d7eda149ad54f01870166dd227.js": "/challenge-zup/precache-manifest.987c89d7eda149ad54f01870166dd227.js",
+    "precache-manifest.43a5640b9bdd9e528e244db3bb96207f.js": "/challenge-zup/precache-manifest.43a5640b9bdd9e528e244db3bb96207f.js",
     "service-worker.js": "/challenge-zup/service-worker.js",
-    "static/js/2.edb5b10c.chunk.js.LICENSE.txt": "/challenge-zup/static/js/2.edb5b10c.chunk.js.LICENSE.txt"
+    "static/js/2.ba78db69.chunk.js.LICENSE.txt": "/challenge-zup/static/js/2.ba78db69.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.03639d23.js",
-    "static/js/2.edb5b10c.chunk.js",
-    "static/js/main.4383024e.chunk.js"
+    "static/js/2.ba78db69.chunk.js",
+    "static/js/main.82b01b84.chunk.js"
   ]
 }
