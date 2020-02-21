@@ -31,7 +31,7 @@ Projeto feito com [Create React App](https://github.com/facebook/create-react-ap
 
 ##  Scripts
 
-Instale as dependências rodando no terminal: `yarn install && yarn start`. Para ver no navegdor[http://localhost:3000](http://localhost:3000)
+Instale as dependências rodando no terminal: `yarn install && yarn start`. Para ver no navegdor [http://localhost:3000](http://localhost:3000)
 
 
 * pode usar comando npm: `npm install && npm run start`
