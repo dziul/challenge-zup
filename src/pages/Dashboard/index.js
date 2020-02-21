@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { Link } from 'react-router-dom';
-import { InputBase, IconButton } from '@material-ui/core';
+import { IconButton } from '@material-ui/core';
 import { Search as IconSearch, Home as IconHome } from '@material-ui/icons';
 
 import ListSimple from '../../components/ListSimple';
@@ -59,13 +59,17 @@ const PageDashboard = (props) => {
                 <Styleds.Content>
 
                     <Styleds.Box className="display-flex">
-                        
-                        <IconSearch/>
-                        <InputBase
-                            onChange={onChangeFilter}
-                            placeholder= "Search filter"
-                            inputProps={{ 'aria-label': 'filter list' }}
-                        />
+                        <Styleds.InputControl>
+                            <Styleds.Label htmlFor="z-up">
+                                <IconSearch/>
+                            </Styleds.Label>
+                            <Styleds.Input
+                                id="z-up"
+                                onChange={onChangeFilter}
+                                placeholder= "Search filter"
+                                inputProps={{ 'aria-label': 'filter list' }}
+                            />
+                        </Styleds.InputControl>
                     </Styleds.Box>
 
                     {

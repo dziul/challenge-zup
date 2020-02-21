@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
-import {Paper} from '@material-ui/core';
+import { Paper } from '@material-ui/core';
+import { InputBase } from '@material-ui/core';
 
-import {Button} from '../../styleds/Button';
 import { white, blueGrey } from '../../styleds/Colors';
-import {ContainerMain} from '../../styleds/Common';
+import { ContainerMain } from '../../styleds/Common';
+import { Button }  from '../../styleds/Button';
 
 const Main = styled.div``;
 
@@ -48,12 +49,27 @@ const Box = styled(Paper)`
     margin-top:20px;
 `;
 
+const InputControl = styled.div`
+    display:flex;
+    align-items:center;
+`;
+const Label = styled.label`
+    padding:10px;
+    flex:0;
+`;
+const Input = styled(InputBase)`
+    height:100%;
+    flex:1;
+`;
 export const Styleds = {
     Main,
     Header,
     Container,
     Content,
     Box,
-    Button,
     HeaderGroupItem,
+    InputControl,
+    Label,
+    Input,
+    Button,
 }
